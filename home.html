@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgroTECH</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f4f9f4;
+    
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(90deg, #2e7d32, #66bb6a);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    nav {
+      background: #ffffff;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    form {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    form input[type="text"] {
+      padding: 10px;
+      border-radius: 20px;
+      border: 1px solid #ccc;
+      outline: none;
+      width: 220px;
+      transition: 0.3s;
+    }
+
+    form input[type="text"]:focus {
+      border-color: #4caf50;
+      box-shadow: 0 0 8px rgba(76, 175, 80, 0.5);
+    }
+
+    form button {
+      background: #4caf50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    form button:hover {
+      background: #388e3c;
+    }
+
+    nav button {
+      background: #2e7d32;
+      color: white;
+      border: none;
+      padding: 10px 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    nav button:hover {
+      background: #1b5e20;
+      transform: scale(1.05);
+    }
+
+    /* Add Services Section */
+    .services-section {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .services-card {
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      text-align: center;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+      transition: 0.3s;
+    }
+
+    .services-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .services-card h2 {
+      margin-bottom: 15px;
+      color: #2e7d32;
+    }
+
+    .services-card button {
+      background: #ff9800;
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .services-card button:hover {
+      background: #e68900;
+      transform: scale(1.05);
+    }
+
+  
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌱 Welcome to AgroTECH</h1>
+  </header>
+
+  <nav>
+    <form>
+      <input type="text" placeholder="Search..." name="search">
+      <button type="submit">Search</button>
+    </form>
+    <form action="my account.html">
+      
+    <button onclick="location.href='account.html'">My Account </button></form>
+    <form action="my purchase.html"> 
+   <button onclick="location.href='purchase.html'">My Purchase</button></form>
+  
+    <button onclick="location.href='help.html'">Help</button>
+    <button onclick="location.href='setting.html'">Setting</button>
+  </nav>
+
+  <section class="services-section">
+    <div class="services-card">
+      <h2>Want to offer your services?</h2>
+     <form action="listproduct .html" method="get"style='display: inline;'> 
+        <button type="submit">Proceed >></button>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>
+  
